@@ -1,0 +1,39 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+html,
+body {
+  background: #d8d8d8;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+  background: url('../img/background-border.jpg') repeat-x top center,
+    rgba(26, 26, 26, 0.9);
+}
+
+header .left-nav {
+  display: flex;
+}
+
+header .left-nav .logo img {
+  height: 34px;
+  width: 34px;
+}
+
+header .left-nav .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .left-nav .menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header .right-nav {
+}
