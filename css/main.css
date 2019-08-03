@@ -10,18 +10,21 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 25px 0;
+  padding: 12px 0;
   background: url('../img/background-border.jpg') repeat-x top center,
     rgba(26, 26, 26, 0.9);
 }
 
 header .left-nav {
   display: flex;
+  margin: 0 0 0 230px;
 }
 
 header .left-nav .logo img {
-  height: 34px;
+  padding: 0px 28.5px 0px 0px;
+  height: 31px;
   width: 34px;
+  color: #fff;
 }
 
 header .left-nav .menu {
@@ -31,9 +34,27 @@ header .left-nav .menu {
 }
 
 header .left-nav .menu a {
-  color: #fff;
+  padding: 0px 17px;
+  color: #ccc;
+  font-size: 14px;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.25px;
+}
+
+header .left-nav .menu .sign-in {
+  color: #de8ae5;
   text-decoration: none;
 }
 
 header .right-nav {
+  display: flex;
+  align-items: center;
+  margin: 0 248px 0 0;
+}
+
+header .right-nav .fas {
+  padding: 0px 0px 0px 21px;
+  color: #ccc;
 }
