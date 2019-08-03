@@ -13,6 +13,7 @@ header {
   padding: 12px 0;
   background: url('../img/background-border.jpg') repeat-x top center,
     rgba(26, 26, 26, 0.9);
+  box-shadow: 0px 4px 8px #999;
 }
 
 header .left-nav {
@@ -43,6 +44,11 @@ header .left-nav .menu a {
   letter-spacing: 0.25px;
 }
 
+header .left-nav .menu .fas {
+  padding: 0 0 5px 0;
+  font-size: 0.5em;
+}
+
 header .left-nav .menu .sign-in {
   color: #de8ae5;
   text-decoration: none;
@@ -55,6 +61,19 @@ header .right-nav {
 }
 
 header .right-nav .fas {
-  padding: 0px 0px 0px 21px;
+  padding: 0px 0px 0px 30px;
   color: #ccc;
+}
+
+header .right-nav .fa-shopping-cart {
+  padding: 0px 21px 0px 0px;
+  color: #ccc;
+}
+
+header .right-nav .cart-quantity {
+  padding: 0 4px 0 0;
+  color: #ccc;
+  opacity: 0.6;
+  font-size: 11px;
+  font-weight: 900;
 }
